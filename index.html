@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Martin Lizarraga - Frontend Web Developer </title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Martin Lizarraga</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="#about" class="t-white roboto">About Me</a></li>
+                <li><a href="#skills" class="t-white roboto">Skills</a></li>
+                <li><a href="#services" class="t-white roboto">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#services">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h6 class="poppinss">Hi, I'm</h6>
+                <h1 class="t-white">Martin Lizarraga</h1>
+                <h4 class="poppinss">Frontend Web Developer</h4>
+                <a href="MartinLizarragaResume.pdf" target="_blank"><button
+class="btn poppins">Resume</button></a>
+                <a class="btn live poppins" id="hireme" href="https://www.linkedin.com/in/martin-lizarraga-737a08227/"
+                    target="_blank">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <!-- Here in src replace the given link with your image link -->
+                <img src="mypicture.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="secondpicture.png" alt="" style="width: 50%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Martin Lizarraga</h1>
+                    <p class="t-white poppins">A self-taught Frontend Web Developer and Computer Science student offering freelance services. <br>
+                        Committed to studying web development. Currently finishing my BS in Computer Science at Arizona State University. Passionate in learning and working with programming languages and web development.</p>
+                    <a class="btn live poppins" id="hireme"
+                        href="https://www.linkedin.com/in/martin-lizarraga-737a08227/">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50"">
+        <div class=" skills-left flex s-center items-center">
+            <img src="coding.jpg" alt="" class="RoundThese">
+        </div>
+
+        <div class="skills-right flex items-center">
+            <div class="skillss-container">
+                <div class="html bar p-relative"><span class="bar-content left t-white">C++</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">Java</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">75%</span></div>
+                <div class="bootstrap bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">50%</span></div>
+                <div class="reactjs bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                        class="bar-content right-skills t-white">30%</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Services</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//developer.png" alt="">
+                <h1 class="t-white poppins">Web Development</h1>
+                <p class="t-white poppins">Web Development is envolving everywhere. Every startup and every bussines
+                    have their own websites. As my passion I will help you to build your clean and fast website for your
+                    startup or your bussines. Please contact below for more information.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//startup.png" alt="">
+                <h1 class="t-white poppins">Computer Science Tutoring</h1>
+                <p class="t-white poppins">Throughout my past experiences I have developed skills and tools to be efficient in the educational field. As a third-year Computer Science major studying at Arizona State University's Barrett Honors program I have extensively studied and worked with Java and C++ on academic and personal projects. My resume highlights my experiences teaching and offer personal one on one virtual tutoring sessions. </p>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="m-b-1">
+        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form action="" id="contactFrom">
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="phone form-div">
+                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    <div class="textarea form-div">
+                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#portfolio" class="poppinss">Portfolio</a></li>
+        </ul>
+        <ul class="flex s-center w-80 font-awesome ">
+            <a href="https://www.linkedin.com/in/martin-lizarraga-737a08227/" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://www.instagram.com/martinxlizarraga" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+           
+        </ul>
+        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Martin
+                Lizarraga</span></p>
+
+    </footer>
+
+    <div id="scroll-top" onclick="scrolltop()">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+
+</body>
+<script src="/script.js"></script>
+
+</html>
